@@ -11,7 +11,7 @@ public class AddOperation extends Operation {
     @Override
     public Double getResult(){
         Double result;
-        result = getNumberA()+getNumberB();
+        result = getNumberA() + getNumberB();
         return result;
     }
 }
