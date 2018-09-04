@@ -2,7 +2,9 @@ package prototype.deepclone;
 
 /**
  * desc
- *
+ *原型模式
+ * 深复制
+ * 工作经历类
  * @author xutianzhe
  * @Date 2018/9/4
  **/

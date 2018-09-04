@@ -10,7 +10,9 @@ package prototype.deepclone;
  **/
 public class Test1 {
     /**
-     * 如果workExperience里还有一个对象引用，则还会出现一层浅复制。深复制需要自己定义深到几层
+     * 如果workExperience里还有一个对象引用，则还会出现一层浅复制。深复制需要自己定义深到几层。
+     * 用原型模式的好处：
+     * 不需要初始化对象，如果有些对象的构造函数很复杂，多次初始化会影响程序
      */
     public static void main(String[] args){
         Resume personA = new Resume("Trent");
