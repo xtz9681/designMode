@@ -17,7 +17,7 @@ public class Client {
      */
     public static void main(String[] args){
         /**
-         * 分离了及核对下的遍历行为，抽象出了一个迭代器类来负责，这样既可以做到
+         * 分离了集合对象的遍历行为，抽象出了一个迭代器类来负责，这样既可以做到
          * 不暴露集合的内部结构，又可以让外部代码透明地访问集合内部的数据
          */
         ConcreteAggregate aggregate = new ConcreteAggregate();
