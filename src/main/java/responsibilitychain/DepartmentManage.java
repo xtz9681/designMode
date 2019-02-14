@@ -14,6 +14,7 @@ public class DepartmentManage extends Manager {
 
     @Override
     public void requestApplications(Request request) {
+        //请假天数大于3天的花需要经理和老板都同意
         if ("请假".equals(request.getRequestType()) && request.getRequestLevel() > 3){
             System.out.println(name+": "+request.getRequestContent()+" 级别 "+request.getRequestLevel()+" 被批准");
             if (superior != null){
